@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TC1]">
+  <test thread-count="5" name="Prueba1(failed)">
+    <parameter name="Direccion2" value="Av Siempreviva 30"/>
+    <parameter name="Direccion1" value="Uno Casa 123"/>
+    <parameter name="Empresa" value="Tesla Motors"/>
+    <parameter name="Clave" value="contrasenea"/>
+    <parameter name="NumTel" value="10123456789"/>
+    <parameter name="NumFax" value="10987654321"/>
+    <parameter name="Ciudad" value="Ciudad Uno"/>
+    <parameter name="Apellidos" value="Persona Apellido Uno"/>
+    <parameter name="Mail" value="17unopersonamail@yopmail.com"/>
+    <parameter name="CodPostal" value="1000"/>
+    <parameter name="NumPais" value="225"/>
+    <parameter name="Nombres" value="Persona Nombre Uno"/>
+    <parameter name="NumZona" value="3701"/>
+    <classes>
+      <class name="testOpenCart.TC1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testTC1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testOpenCart.TC1 -->
+    </classes>
+  </test> <!-- Prueba1(failed) -->
+</suite> <!-- Failed suite [TC1] -->

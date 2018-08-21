@@ -1,0 +1,11 @@
+<suite name="SuiteOpencart">
+  <test name="ProbarFunciones">
+    <classes>
+      <class name="testCases.TC1"/>
+      <class name="testCases.TC2"/>
+      <class name="testCases.TC4"/>
+      <class name="testCases.TC5"/>
+      <class name="testCases.TC3"/>
+    </classes>
+  </test>
+</suite>
