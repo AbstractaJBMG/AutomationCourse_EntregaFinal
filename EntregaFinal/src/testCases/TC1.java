@@ -33,6 +33,7 @@ public class TC1 {
     	try { if (isElementPresent(By.xpath("/html/body/footer/div/div/div[4]/ul/li[1]/a"))) break; } catch (Exception e) {}
     	Thread.sleep(1000);
     }
+    //
 
     driver.findElement(By.xpath("/html/body/footer/div/div/div[4]/ul/li[1]/a")).click();
     for (int second = 0;; second++) {
