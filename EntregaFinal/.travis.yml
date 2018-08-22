@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 language: java
 jdk:
   - oraclejdk8
   - oraclejdk9
   - openjdk8
-=======
-language: java
-jdk:
-  - oraclejdk8
-  - oraclejdk9
-  - openjdk8
->>>>>>> branch 'master' of https://github.com/AbstractaJBMG/AutomationCourse_EntregaFinal.git
