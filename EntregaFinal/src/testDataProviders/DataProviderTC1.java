@@ -9,7 +9,7 @@ public class DataProviderTC1
 	@DataProvider(name="DatosTC1")	
 	public Object[][] DatosTC1()
 	{
-		Object [][] Datos = new Object [1][13];
+		Object [][] Datos = new Object [5][13];
 				
 		Datos [0][0] = "Persona Nombre Uno";				// Nombres*
 		Datos [0][1] = "Persona Apellido Uno";				// Apellidos*
